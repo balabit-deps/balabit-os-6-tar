@@ -1,0 +1,10 @@
+--- a/tests/listed03.at
++++ b/tests/listed03.at
+@@ -26,6 +26,7 @@
+ 
+ AT_TAR_CHECK([
+ AT_UNPRIVILEGED_PREREQ
++test `uname` = "Linux" || AT_SKIP_TEST
+ 
+ mkdir dir
+ mkdir dir/sub
