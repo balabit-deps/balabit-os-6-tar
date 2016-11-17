@@ -1,3 +1,12 @@
+tar (1.28-2.1ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: extract pathname bypass
+    - debian/patches/CVE-2016-6321.patch: skip members whose names contain
+      ".." in src/extract.c.
+    - CVE-2016-6321
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 17 Nov 2016 11:06:07 -0500
+
 tar (1.28-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.

@@ -3,3 +3,4 @@ listed03-linux-only
 add-clamp-mtime.diff
 files-from-and-recursive-extract.diff
 use-sort-in-t-dir-tests.diff
+CVE-2016-6321.patch
